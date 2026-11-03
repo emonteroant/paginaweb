@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eduardo Montero | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ─── NAV ─── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <span class="nav-logo">EM<span class="accent">.</span></span>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero">Inicio</a></li>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#experience">Experiencia</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact" class="btn-nav">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-greeting">Hola, soy</p>
+      <h1 class="hero-name">Eduardo<br /><span class="accent">Montero</span></h1>
+      <p class="hero-tagline" id="typed-text"></p>
+      <p class="hero-location"><i class="fa-solid fa-location-dot"></i> España</p>
+      <div class="hero-ctas">
+        <a href="#about" class="btn btn-primary">Sobre mí</a>
+        <a href="#contact" class="btn btn-outline">Contáctame</a>
+      </div>
+      <div class="social-row">
+        <a href="mailto:zifar.montero@gmail.com" aria-label="Email" class="social-icon">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/emonteroant" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/emonteroant" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─── -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">01 / Sobre mí</span>
+        <h2 class="section-title">¿Quién soy?</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-avatar-wrap">
+          <div class="avatar-placeholder">
+            <span>EM</span>
+          </div>
+          <div class="about-badges">
+            <div class="badge"><i class="fa-solid fa-shield-halved"></i> Trust &amp; Safety</div>
+            <div class="badge"><i class="fa-solid fa-code"></i> Full Stack Dev</div>
+            <div class="badge"><i class="fa-solid fa-map"></i> GIS</div>
+          </div>
+        </div>
+        <div class="about-text">
+          <p>
+            Quality Analyst con más de <strong>2 años de experiencia internacional</strong> en Dublín, Irlanda, trabajando para grandes empresas tecnológicas a través de Accenture en la industria de Trust &amp; Safety.
+          </p>
+          <p>
+            Actualmente evoluciono mi perfil técnico cursando un <strong>Máster en Desarrollo Web Full Stack</strong>. Mi objetivo es unir el Control de Calidad con la Ingeniería de Software, aplicando una mentalidad orientada al detalle para construir y asegurar productos digitales robustos.
+          </p>
+          <ul class="about-list">
+            <li><i class="fa-solid fa-check-circle"></i> Detección de fraude y aplicación de políticas</li>
+            <li><i class="fa-solid fa-check-circle"></i> Bilingüe: Español nativo · Inglés C1</li>
+            <li><i class="fa-solid fa-check-circle"></i> Automatización de flujos con n8n y chatbot APIs</li>
+            <li><i class="fa-solid fa-check-circle"></i> Experiencia en SIG: ArcGIS y QGIS</li>
+          </ul>
+          <div class="cert-chips">
+            <span class="chip"><i class="fa-brands fa-python"></i> Python Certified</span>
+            <span class="chip"><i class="fa-solid fa-globe"></i> EF SET C1 English</span>
+            <span class="chip"><i class="fa-solid fa-rocket"></i> Agentes del Cambio</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SKILLS ─── -->
+  <section class="section section-dark" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">02 / Habilidades</span>
+        <h2 class="section-title">Stack &amp; Competencias</h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-card" data-delay="0">
+          <div class="skill-card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3>Trust &amp; Safety / QA</h3>
+          <ul>
+            <li>Moderación de contenido</li>
+            <li>Detección de fraude</li>
+            <li>KYC &amp; Compliance</li>
+            <li>GDPR</li>
+          </ul>
+        </div>
+
+        <div class="skill-card" data-delay="100">
+          <div class="skill-card-icon"><i class="fa-solid fa-code"></i></div>
+          <h3>Desarrollo Web</h3>
+          <ul>
+            <li>HTML5 / CSS3</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+          </ul>
+        </div>
+
+        <div class="skill-card" data-delay="200">
+          <div class="skill-card-icon"><i class="fa-brands fa-python"></i></div>
+          <h3>Automatización</h3>
+          <ul>
+            <li>Python</li>
+            <li>n8n Workflows</li>
+            <li>Chatbot APIs</li>
+            <li>Inbound Marketing</li>
+          </ul>
+        </div>
+
+        <div class="skill-card" data-delay="300">
+          <div class="skill-card-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+          <h3>GIS &amp; Análisis</h3>
+          <ul>
+            <li>ArcGIS</li>
+            <li>QGIS</li>
+            <li>Bases de datos Oracle</li>
+            <li>Análisis cartográfico</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── EXPERIENCE ─── -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">03 / Experiencia</span>
+        <h2 class="section-title">Trayectoria profesional</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item" data-delay="0">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Ads Content Moderator / QA</h3>
+                <p class="timeline-company"><i class="fa-solid fa-building"></i> Accenture</p>
+              </div>
+              <span class="timeline-date">Jun 2022 – Ago 2024</span>
+            </div>
+            <p class="timeline-location"><i class="fa-solid fa-location-dot"></i> Dublín, Irlanda</p>
+            <ul class="timeline-bullets">
+              <li>Superé consistentemente los objetivos de calidad y precisión de protocolos.</li>
+              <li>Apliqué directrices de moderación para detectar contenido dañino y mitigar riesgos.</li>
+              <li>Analicé patrones de actividad sospechosa para la prevención de fraude.</li>
+              <li>Garanticé el cumplimiento estricto del GDPR y políticas de seguridad interna.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-delay="150">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>GIS Technician</h3>
+                <p class="timeline-company"><i class="fa-solid fa-building"></i> Ayuntamiento de Cáceres (SIG)</p>
+              </div>
+              <span class="timeline-date">Mar 2019 – Jun 2019</span>
+            </div>
+            <p class="timeline-location"><i class="fa-solid fa-location-dot"></i> Cáceres, España</p>
+            <ul class="timeline-bullets">
+              <li>Desarrollo de mapas virtuales y gestión de bases de datos espaciales con Oracle.</li>
+              <li>Análisis estadístico y cartográfico con ArcGIS y QGIS.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-delay="300">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Grado en Geografía &amp; Ordenación del Territorio</h3>
+                <p class="timeline-company"><i class="fa-solid fa-graduation-cap"></i> Universidad de Extremadura</p>
+              </div>
+              <span class="timeline-date">Sep 2013 – Jul 2020</span>
+            </div>
+            <p class="timeline-location"><i class="fa-solid fa-location-dot"></i> Extremadura, España</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS / SERVICES ─── -->
+  <section class="section section-dark" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">04 / Proyectos &amp; Servicios</span>
+        <h2 class="section-title">¿En qué puedo ayudarte?</h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card" data-delay="0">
+          <div class="project-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+          <h3>Quality Assurance</h3>
+          <p>Auditoría y control de calidad de plataformas digitales, moderación de contenido y cumplimiento normativo (GDPR, políticas internas).</p>
+          <div class="project-tags">
+            <span>QA</span><span>Trust &amp; Safety</span><span>Compliance</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-delay="150">
+          <div class="project-icon"><i class="fa-solid fa-laptop-code"></i></div>
+          <h3>Desarrollo Web Full Stack</h3>
+          <p>Construcción de aplicaciones web modernas con HTML5, CSS3, JavaScript, React y Node.js. Actualmente en formación avanzada.</p>
+          <div class="project-tags">
+            <span>React</span><span>Node.js</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-delay="300">
+          <div class="project-icon"><i class="fa-solid fa-robot"></i></div>
+          <h3>Automatización &amp; Workflows</h3>
+          <p>Diseño e implementación de flujos de trabajo automatizados con n8n, integraciones de APIs y chatbots inteligentes.</p>
+          <div class="project-tags">
+            <span>n8n</span><span>Python</span><span>APIs</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-delay="450">
+          <div class="project-icon"><i class="fa-solid fa-earth-europe"></i></div>
+          <h3>Análisis GIS</h3>
+          <p>Desarrollo de mapas digitales, análisis espacial y gestión de datos geográficos con ArcGIS y QGIS.</p>
+          <div class="project-tags">
+            <span>ArcGIS</span><span>QGIS</span><span>Oracle</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">05 / Contacto</span>
+        <h2 class="section-title">Hablemos</h2>
+      </div>
+      <div class="contact-wrapper">
+        <p class="contact-lead">
+          ¿Tienes un proyecto en mente o quieres colaborar? <br />
+          Estoy abierto a nuevas oportunidades. ¡No dudes en escribirme!
+        </p>
+        <div class="contact-cards">
+          <a href="mailto:zifar.montero@gmail.com" class="contact-card">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <span class="contact-label">Email</span>
+              <span class="contact-value">zifar.montero@gmail.com</span>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/emonteroant" target="_blank" rel="noopener" class="contact-card">
+            <i class="fa-brands fa-linkedin"></i>
+            <div>
+              <span class="contact-label">LinkedIn</span>
+              <span class="contact-value">emonteroant</span>
+            </div>
+          </a>
+          <a href="https://github.com/emonteroant" target="_blank" rel="noopener" class="contact-card">
+            <i class="fa-brands fa-github"></i>
+            <div>
+              <span class="contact-label">GitHub</span>
+              <span class="contact-value">emonteroant</span>
+            </div>
+          </a>
+        </div>
+        <div class="contact-cta">
+          <a href="mailto:zifar.montero@gmail.com" class="btn btn-primary btn-lg">
+            <i class="fa-solid fa-paper-plane"></i> Enviar mensaje
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer">
+    <div class="container">
+      <p>Diseñado &amp; desarrollado por <span class="accent">Eduardo Montero</span> · 2024</p>
+      <p class="footer-sub">Quality Analyst · Full Stack Developer in Training</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
